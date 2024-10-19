@@ -11,9 +11,9 @@ const DetectFraud = () => {
 
       <div className="flex justify-center w-full">
   <iframe 
-    src="https://www.example.com" 
+    src="http://localhost:8501/" 
     title="Description of the content"
-    className="w-full max-w-5xl h-full rounded-lg border-0 shadow-lg"
+    className="w-full max-w-7xl h-full rounded-lg border-0 shadow-lg"
     style={{ aspectRatio: '16/9' }} 
   />
 </div>

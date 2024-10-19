@@ -24,7 +24,7 @@ export const HERO_CONTENT = {
   subHeading:
     "Detect fraud before it happens! Leverage advanced machine learning to safeguard your financial transactions. Monitor, analyze, and act—anytime, anywhere!",
   callToAction: {
-    primary: "Secure Your Transactions Now 🔒",
+    primary: "Detect Fraud Now 🔒",
   },
 };
 
