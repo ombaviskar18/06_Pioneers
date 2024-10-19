@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link to='/'><img src={logo} alt="Logo" width={120} height={24} /></Link>
             <div className="hidden md:flex mr-32 items-center justify-center flex-grow space-x-6">
                 <a href='/' className="hover:text-neutral-200">Home</a>
-                <Link to='/' className="hover:text-neutral-200">Detect Fraud</Link> 
+                <Link to='/detect' className="hover:text-neutral-200">Detect Fraud</Link> 
             </div>
             <div className="md:hidden">
                 <button onClick={toggleMenu} className="text-white focus:outline-none" aria-label={isOpen ? "Close Menu" : "Open Menu"}>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <div className="md:hidden bg-neutral-900/60 backdrop-blur-md border border-neutral-800 p-4 rounded-xl mt-2">
                     <div className="flex flex-col space-y-4">
                         <a href='/' className="hover:text-neutral-200">Home</a>
-                        <Link to='/' className="hover:text-neutral-200">Detect Fraud</Link> 
+                        <Link to='/detect' className="hover:text-neutral-200">Detect Fraud</Link> 
                     </div>
                 </div>
             )}

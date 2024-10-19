@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import Footer from "./components/Footer";
 import AudioLoop from "./components/AudioLoop";
+import DetectFraud from "./components/Detect";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path= '/' element={<Homepage/>} /> 
+          <Route path='/detect' element={<DetectFraud />} />
         </Routes>
         <Footer/>
       </main>

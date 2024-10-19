@@ -55,7 +55,7 @@ const Homepage = () => {
 </div>
 
 <div className='mt-6 space-x-4'>
-  <Link to='/' >
+  <Link to='/detect' >
     <button className="glowing-button">
       {HERO_CONTENT.callToAction.primary}
     </button>
