@@ -36,6 +36,8 @@ This Advanced Fraud Detection System is a powerful tool designed to analyze fina
 
 ## Usage
 
+### Backend
+
 1. Start the Streamlit app:
    ```
    streamlit run app.py
@@ -51,6 +53,27 @@ This Advanced Fraud Detection System is a powerful tool designed to analyze fina
 
 6. Download the suspicious transactions CSV file if needed
 
+### Frontend (Optional)
+
+If you want to run the frontend separately:
+
+1. Navigate to the frontend directory:
+   ```
+   cd frontend
+   ```
+
+2. Install the required npm packages:
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+   ```
+   npm start
+   ```
+
+4. Open your web browser and go to `http://localhost:3000`
+
 ## File Structure
 
 - `app.py`: Main Streamlit application
@@ -59,4 +82,8 @@ This Advanced Fraud Detection System is a powerful tool designed to analyze fina
 - `fraud_detection_scaler.joblib`: Scaler used for data preprocessing
 - `feature_importances.joblib`: Feature importances from the trained model
 - `requirements.txt`: List of required Python packages
-
+- `frontend/`: Directory containing the React frontend (if applicable)
+- 
+Thank you
+Made with Love
+By Pioneers 
