@@ -1,4 +1,4 @@
-# Advanced Fraud Detection System
+# AI Fraud Detection System
 
 ## Overview
 
@@ -19,7 +19,7 @@ This Advanced Fraud Detection System is a powerful tool designed to analyze fina
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/advanced-fraud-detection-system.git
+   git clone https://github.com/ombaviskar18/advanced-fraud-detection-system.git
    cd advanced-fraud-detection-system
    ```
 
@@ -69,7 +69,7 @@ If you want to run the frontend separately:
 
 3. Start the development server:
    ```
-   npm start
+   npm run dev
    ```
 
 4. Open your web browser and go to `http://localhost:3000`
@@ -84,6 +84,6 @@ If you want to run the frontend separately:
 - `requirements.txt`: List of required Python packages
 - `frontend/`: Directory containing the React frontend (if applicable)
 - 
-Thank you
-Made with Love
+Thank you,
+Made with Love,
 By Pioneers 
