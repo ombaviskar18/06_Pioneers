@@ -1,4 +1,4 @@
-# AI Fraud Detection System
+# FraudX : AI based Advanced Fraud Detection System
 
 ## Overview
 
