@@ -1,0 +1,55 @@
+.glowing-button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Slightly translucent border */
+  border-radius: 50px; /* Ensures the rounded effect like in the image */
+  background: radial-gradient(circle at center, #0e0e0e 50%, #121212 100%);
+  color: white;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-transform: camelcase;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  letter-spacing: 1px; 
+  transition: 0.3s ease;
+}
+
+.glowing-button::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: 50px;
+  border: 3px solid transparent;
+  background: linear-gradient(90deg, rgba(0, 191, 255, 0.8), rgba(0, 191, 255, 0.2), rgba(0, 191, 255, 0.8));
+  background-size: 300%;
+  z-index: -1; /* Places the light effect behind the button text */
+  transition: 0.5s ease;
+  animation: none;
+}
+
+.glowing-button:hover::before {
+  animation: rotate-light 3s linear infinite; /* Continuous rotation effect */
+}
+
+@keyframes rotate-light {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg); /* Full rotation for the light */
+  }
+}
+
+.glowing-button:active {
+  transform: scale(0.98); /* Click effect */
+}
+
+.glowing-button:hover {
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.8), 0 0 40px rgba(0, 191, 255, 0.4);
+}
